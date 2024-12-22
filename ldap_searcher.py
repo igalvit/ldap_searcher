@@ -237,7 +237,8 @@ class LDAPSearcherApp:
         if not attributes or attributes == "LDAP attributes to search (separated by commas)":
             self.show_warning("Invalid Input", "At least one search attribute is required.")
             return None
-        # This is strange but it's for user's convenience
+        # This is strange but it's for user's convenience to show as the first
+        # attribute the same used as search field.
         attributes = f"{field}," + attributes 
         return {"field": field, "base": base, "attributes": [attr.strip() for attr in attributes.split(",")]}  
 

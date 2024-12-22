@@ -25,9 +25,7 @@ pip install -r requirements.txt
 ```
 
 ### Dependencies:
-- `tkinter`
 - `ldap3`
-- `unittest`
 - `configparser`
 
 ## Usage

@@ -1,0 +1,36 @@
+# Python
+*.pyc
+*.pyo
+__pycache__/
+.env
+*.env
+
+#pyinstaller
+build
+dist
+
+# VSCode
+.vscode/
+*.code-workspace
+
+# Unit test / Coverage reports
+.coverage
+*.cover
+htmlcov/
+*.pytest_cache/
+.cache/
+test_data/
+
+# Logs
+*.log
+
+# Virtual Environment
+venv/
+.env/
+
+# MacOS
+.DS_Store
+
+# Windows
+Thumbs.db
+desktop.ini
